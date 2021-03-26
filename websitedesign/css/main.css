@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(235,235,233);
+}
+
+b {
+  font-weight: 700;
+}
+
+i {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-title {
+  display: block;
+  margin-top: 40px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  flex-flow: row wrap;
+  width: 480px;
+  margin: 0 20px;
+}
+
+.board-title {
+  flex: 1 100%;
+}
+
+.color-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 150px;
+  height: 200px;
+  margin: 0 20px 20px 0;
+  border-radius: 5%;
+}
+
+.color-footer {
+  align-self: flex-end;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(255,255,255);
+}
+
+.color-footer p {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 8px;
+  line-height: 0.5;
+}
+
+.color1 {
+  background-color: rgb(235,92,95);
+}
+
+.color2 {
+  background-color: rgb(241,171,144);
+}
+
+.color3 {
+  background-color: rgb(122,12,83);
+}
+
+.color4 {
+  background-color: rgb(55,121,134);
+}
+
+.color5 {
+  background-color: rgb(95,208,192);
+}
+
+.color6 {
+  background-color: rgb(143,224,106);
+}
+
+.fonts-box {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.font-name {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.font-author {
+  font-size: 14px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.font-example {
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+.font1 {
+  font-family: Roboto;
+}
+
+.font2 {
+  font-family: Lato;
+}
+
+.font3 {
+  font-family: Raleway;
+}
